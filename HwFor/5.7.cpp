@@ -19,15 +19,16 @@ int main()
         {
             cout << "La nota " << nota << " es notable" << endl;
         }
+        if (nota < 7)
+        {
+            cout << "La nota " << nota << " no es notable" << endl;
+        }
+
         if (nota > 10 || nota < 0)
         {
             cout << "Haz ingresado una nota invalida" << endl;
             return 0;
         }
-    }
-    if (nota < 7)
-    {
-        cout << "No hay ninguna nota notable" << endl;
     }
 
     return 0;
