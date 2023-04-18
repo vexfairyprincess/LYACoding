@@ -11,7 +11,7 @@ int main()
         double media;
         suma += numero;
         media = suma / cont;
-        cout << "Introduce una lista de números positivos, para finalizar de introducir numeros ingresa un # negativo" << endl;
+        cout << "Introduce una lista de números positivos, para finalizar de introducir numeros ingresa un # negativo:" << endl;
         cin >> numero;
 
         if (numero < 0)
