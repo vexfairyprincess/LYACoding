@@ -6,11 +6,11 @@ formato adecuado.*/
 using namespace std;
 
 int main(){
-    char tabla[11] = {'0', '1', '5', '7', '-', 'M', 'P', '2', '0', '2', '3'};
+    char table[11] = {'0', '1', '5', '7', '-', 'M', 'P', '2', '0', '2', '3'};
 
     cout << "Valores almacenados en el arreglo: ";
     for (int i = 0; i < 11; i++){
-        cout << tabla[i] << " ";
+        cout << table[i] << " ";
     }
     cout << endl;
 

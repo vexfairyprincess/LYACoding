@@ -6,11 +6,11 @@ formato adecuado.*/
 using namespace std;
 
 int main(){
-    double tabla[6] = {0, 95.75, 0, 87.91, 0, 85.72};
+    double table[6] = {0, 95.75, 0, 87.91, 0, 85.72};
 
     cout << "Valores almacenados en la tabla: ";
     for (int i = 0; i < 6; i++){
-        cout << tabla[i] << " ";
+        cout << table[i] << " ";
     }
     cout << endl;
 
