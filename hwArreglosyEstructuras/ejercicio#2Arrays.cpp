@@ -5,14 +5,14 @@ formato adecuado.*/
 
 using namespace std;
 
-int main(){
+void ejercicio2Array()
+{
     double table[6] = {0, 95.75, 0, 87.91, 0, 85.72};
 
     cout << "Valores almacenados en la tabla: ";
-    for (int i = 0; i < 6; i++){
+    for (int i = 0; i < 6; i++)
+    {
         cout << table[i] << " ";
     }
     cout << endl;
-
-    return 0;
 }

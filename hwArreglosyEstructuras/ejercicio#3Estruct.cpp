@@ -8,14 +8,14 @@ estructuras.*/
 
 using namespace std;
 
-//Estructura de la informacion personal
+// Estructura de la informacion personal
 struct infoPersonal
 {
     string name;
     int age;
 };
 
-//Estrucutra de la informacion profesional
+// Estrucutra de la informacion profesional
 struct infoProf
 {
     /* data */
@@ -29,15 +29,15 @@ struct athlNica
     infoProf athlProf;
 };
 
-int main()
+void ejercicio3Estruct()
 {
-    const int numAthl = 5;
+   const int numAthl = 5;
     athlNica atletas[numAthl];
-    
-    //Solicitar datos al usuario
-    for(int i; i < numAthl; i++)
+
+    // Solicitar datos al usuario
+    for (int i; i < numAthl; i++)
     {
-        cout << "Atleta # " << i+1 << endl;
+        cout << "Atleta # " << i + 1 << endl;
         cout << "Nombre: ";
         getline(cin, atletas[i].athlPersonal.name);
         cout << "Edad: ";
@@ -51,16 +51,14 @@ int main()
         cout << endl;
     }
 
-    //Imprimir datos
-    for (int j = 0; j < numAthl; j++) {
-        cout << "Atleta #" << j+1 << endl;
+    // Imprimir datos
+    for (int j = 0; j < numAthl; j++)
+    {
+        cout << "Atleta #" << j + 1 << endl;
         cout << "Nombre: " << atletas[j].athlPersonal.name << endl;
         cout << "Edad: " << atletas[j].athlPersonal.age << endl;
         cout << "Deporte: " << atletas[j].athlProf.sport << endl;
         cout << "Medallas: " << atletas[j].athlProf.medals << endl;
         cout << endl;
     }
-    return 0;
-
-
-}
+}   
